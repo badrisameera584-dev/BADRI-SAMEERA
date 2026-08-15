@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Badri Sameera | Developer & Computer Science Student</title>
+  <meta name="description" content="Personal Portfolio & Project Showcase of Badri Sameera - Computer Science Student & Software Developer.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Animated Elements -->
+  <div class="bg-glow blob-1"></div>
+  <div class="bg-glow blob-2"></div>
+  <div class="bg-glow blob-3"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-badge">BS</span>
+        <span class="logo-text">Badri <span class="accent-text">Sameera</span></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#academics" class="nav-link">Academics</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm nav-btn">Get In Touch</a>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="status-badge">
+          <span class="status-dot"></span> Available for Opportunities
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Badri Sameera</span>
+        </h1>
+        <h2 class="hero-subtitle">
+          Building <span class="typing-text" id="typing-text">Software & Web Experiences</span>
+        </h2>
+        <p class="hero-description">
+          Computer Science enthusiast passionate about web development, backend engineering, and building innovative software solutions. Welcome to my portfolio!
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fa-solid fa-rocket"></i> Explore Projects
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fa-solid fa-envelope"></i> Contact Me
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Tech Stacks</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Dedication</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card-wrapper">
+        <div class="glass-card hero-main-card">
+          <div class="card-header">
+            <div class="window-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="card-tag">developer.config.js</span>
+          </div>
+          <div class="code-preview">
+            <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">'Badri Sameera'</span>,
+  <span class="code-property">role</span>: <span class="code-string">'Software Developer'</span>,
+  <span class="code-property">skills</span>: [
+    <span class="code-string">'C++'</span>, <span class="code-string">'Python'</span>, <span class="code-string">'Node.js'</span>, 
+    <span class="code-string">'Web Dev'</span>, <span class="code-string">'DBMS'</span>, <span class="code-string">'AI/ML'</span>
+  ],
+  <span class="code-property">status</span>: <span class="code-string">'Ready to Collaborate 🚀'</span>
+};</code></pre>
+          </div>
+        </div>
+        
+        <div class="floating-badge badge-1">
+          <i class="fa-brands fa-node-js icon-node"></i>
+          <div>
+            <h4>Node.js & Backend</h4>
+            <p>APIs & Architecture</p>
+          </div>
+        </div>
+
+        <div class="floating-badge badge-2">
+          <i class="fa-solid fa-code icon-cpp"></i>
+          <div>
+            <h4>C++ & Python</h4>
+            <p>Data Structures & Algorithms</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about-section" id="about">
+    <div class="section-container">
+      <div class="section-header text-center">
+        <span class="subheading">Get To Know Me</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card glass-card">
+          <div class="about-icon"><i class="fa-solid fa-user-graduate"></i></div>
+          <h3>Education & Passion</h3>
+          <p>
+            I am a dedicated Computer Science student with a strong foundation in core software principles, modern web frameworks, database management, and emerging AI tools.
+          </p>
+        </div>
+
+        <div class="about-card glass-card">
+          <div class="about-icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>What I Do</h3>
+          <p>
+            From crafting dynamic web interfaces with HTML/CSS/JS to designing scalable backend architectures and writing optimized C++ algorithm solutions.
+          </p>
+        </div>
+
+        <div class="about-card glass-card">
+          <div class="about-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <h3>My Goal</h3>
+          <p>
+            To create impactful software applications, collaborate on open-source projects, and constantly solve challenging real-world engineering problems.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills-section" id="skills">
+    <div class="section-container">
+      <div class="section-header text-center">
+        <span class="subheading">Technical Expertise</span>
+        <h2 class="section-title">Skills & <span class="gradient-text">Technologies</span></h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Programming Languages -->
+        <div class="skill-category glass-card">
+          <div class="category-header">
+            <i class="fa-solid fa-code"></i>
+            <h3>Languages</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-pill"><i class="fa-solid fa-c"></i> C++</div>
+            <div class="skill-pill"><i class="fa-brands fa-python"></i> Python</div>
+            <div class="skill-pill"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</div>
+            <div class="skill-pill"><i class="fa-brands fa-html5"></i> HTML5 & CSS3</div>
+          </div>
+        </div>
+
+        <!-- Web & Backend -->
+        <div class="skill-category glass-card">
+          <div class="category-header">
+            <i class="fa-solid fa-server"></i>
+            <h3>Web & Backend</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-pill"><i class="fa-brands fa-node-js"></i> Node.js</div>
+            <div class="skill-pill"><i class="fa-solid fa-gears"></i> REST APIs</div>
+            <div class="skill-pill"><i class="fa-solid fa-database"></i> DBMS & SQL</div>
+            <div class="skill-pill"><i class="fa-brands fa-git-alt"></i> Git & GitHub</div>
+          </div>
+        </div>
+
+        <!-- Tools & Concepts -->
+        <div class="skill-category glass-card">
+          <div class="category-header">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Core Concepts</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-pill"><i class="fa-solid fa-diagram-project"></i> Data Structures</div>
+            <div class="skill-pill"><i class="fa-solid fa-robot"></i> AI & Gemini API</div>
+            <div class="skill-pill"><i class="fa-solid fa-network-wired"></i> Embedded Systems</div>
+            <div class="skill-pill"><i class="fa-solid fa-shield-halved"></i> Software Eng.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects-section" id="projects">
+    <div class="section-container">
+      <div class="section-header text-center">
+        <span class="subheading">My Portfolio</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="project-filters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="web">Web & Backend</button>
+        <button class="filter-btn" data-filter="cpp">Algorithms & C++</button>
+        <button class="filter-btn" data-filter="ai">AI & Research</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card glass-card" data-category="web">
+          <div class="project-banner bg-grad-1">
+            <i class="fa-brands fa-node-js project-icon"></i>
+            <span class="project-type">Web App</span>
+          </div>
+          <div class="project-content">
+            <h3>Node.js Backend Architecture</h3>
+            <p>A comprehensive backend setup featuring RESTful endpoints, asynchronous request handling, and modular database structures.</p>
+            <div class="project-tags">
+              <span>Node.js</span>
+              <span>Express</span>
+              <span>REST API</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-link" onclick="openProjectModal('Node.js Backend Architecture', 'Designed and implemented modular backend services using Node.js, focusing on clean architecture, asynchronous execution, and database integration.')">Details <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card glass-card" data-category="ai">
+          <div class="project-banner bg-grad-2">
+            <i class="fa-solid fa-wand-magic-sparkles project-icon"></i>
+            <span class="project-type">AI Project</span>
+          </div>
+          <div class="project-content">
+            <h3>Google Gemini API Integration</h3>
+            <p>Interactive web integration with Google Gemini AI models for smart text synthesis, automated insights, and dynamic responses.</p>
+            <div class="project-tags">
+              <span>Gemini API</span>
+              <span>JavaScript</span>
+              <span>AI Models</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-link" onclick="openProjectModal('Google Gemini API Integration', 'Built an interactive demonstration integrating Google Gemini AI, leveraging structured prompts and API client libraries.')">Details <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card glass-card" data-category="cpp">
+          <div class="project-banner bg-grad-3">
+            <i class="fa-solid fa-calculator project-icon"></i>
+            <span class="project-type">Algorithms</span>
+          </div>
+          <div class="project-content">
+            <h3>C++ Algorithm Suite</h3>
+            <p>Optimized C++ algorithms handling data structures, recursion, mathematical computations, and memory management.</p>
+            <div class="project-tags">
+              <span>C++</span>
+              <span>Data Structures</span>
+              <span>OOP</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-link" onclick="openProjectModal('C++ Algorithm Suite', 'Efficient implementation of core computer science algorithms including recursion, bitwise operations, and memory optimization.')">Details <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card glass-card" data-category="web">
+          <div class="project-banner bg-grad-4">
+            <i class="fa-solid fa-database project-icon"></i>
+            <span class="project-type">Database</span>
+          </div>
+          <div class="project-content">
+            <h3>DBMS Model Management System</h3>
+            <p>Database design schemas, relational queries, normalization structures, and transactional models for web backends.</p>
+            <div class="project-tags">
+              <span>SQL</span>
+              <span>DBMS</span>
+              <span>Relational Model</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn-link" onclick="openProjectModal('DBMS Model Management System', 'Created normalized relational schema designs and optimized SQL query structures for high reliability and performance.')">Details <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academics / Papers Section -->
+  <section class="section academics-section" id="academics">
+    <div class="section-container">
+      <div class="section-header text-center">
+        <span class="subheading">Knowledge Base</span>
+        <h2 class="section-title">Academic & <span class="gradient-text">Research Work</span></h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="academics-grid">
+        <div class="academic-item glass-card">
+          <div class="academic-icon"><i class="fa-solid fa-microchip"></i></div>
+          <div class="academic-info">
+            <h4>Artificial Intelligence in Tech</h4>
+            <p>Exploration of modern machine learning paradigms, neural networks, and generative AI integration in modern applications.</p>
+          </div>
+        </div>
+
+        <div class="academic-item glass-card">
+          <div class="academic-icon"><i class="fa-solid fa-leaf"></i></div>
+          <div class="academic-info">
+            <h4>Environmental Systems & Resources</h4>
+            <p>Research analysis on sustainable resources, technology for resource optimization, and environmental monitoring.</p>
+          </div>
+        </div>
+
+        <div class="academic-item glass-card">
+          <div class="academic-icon"><i class="fa-solid fa-code-compare"></i></div>
+          <div class="academic-info">
+            <h4>Advanced Python & Data Handling</h4>
+            <p>Structured analysis of list operations, data manipulations, and object-oriented paradigms in Python.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact-section" id="contact">
+    <div class="section-container">
+      <div class="section-header text-center">
+        <span class="subheading">Let's Connect</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info glass-card">
+          <h3>Let's talk about your project</h3>
+          <p>Feel free to reach out for collaborations, project inquiries, or just to say hello!</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span>Email</span>
+                <strong>badrisameera584@dev.com</strong>
+              </div>
+              <button class="copy-btn" onclick="copyEmail('badrisameera584@dev.com')"><i class="fa-regular fa-copy"></i></button>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+              <div>
+                <span>GitHub</span>
+                <strong>github.com/badrisameera584-dev</strong>
+              </div>
+              <a href="https://github.com/badrisameera584-dev" target="_blank" class="copy-btn"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span>Location</span>
+                <strong>India</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form glass-card" id="contact-form" onsubmit="handleFormSubmit(event)">
+          <h3>Send a Message</h3>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" required placeholder="John Doe">
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" required placeholder="john@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required placeholder="Hi Badri, I would like to discuss a project..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2026 Badri Sameera. Built with passion & precision.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/badrisameera584-dev" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="#hero"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal for Project Details -->
+  <div class="modal" id="project-modal">
+    <div class="modal-content glass-card">
+      <button class="modal-close" onclick="closeProjectModal()">&times;</button>
+      <h3 id="modal-title">Project Details</h3>
+      <p id="modal-desc"></p>
+      <div class="modal-footer">
+        <button class="btn btn-primary" onclick="closeProjectModal()">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">Message sent successfully!</div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
